@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <div> -->
+    <!-- </div> -->
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body style="margin:0;">
+    <div class="box">
+      <img id="headimg" onmouseover="textin(this)" src="img/doctor.jpeg" width="100%">
+
+        <button id="button1" type="button">Log In</button>
+        <button id="button2" onclick="sign()" type="button">Sign Up</button>
+
+        <div id="demo"></div>
+        <div id="intro">Welcome!<br>We are medical experts from all over the world, here to answer your health questions!</div>
+    </div>
+    <div class="wrap">
+
+</div>
+<div class="search">
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Global Health News</h2>
+      <a href><h3>Covid-19 Outbreak, Apr 12, 2020</h3></a>
+      <div id="image1">
+        <div id="brief"><p>Since 2 January 2020, the three levels of WHO (China country office, Regional Office for the<br> Western Pacific and headquarters) have been working together to respond to this outbreak of<br> COVID-19...</p></div>
+        <div id="sampleimg">
+      <img onmouseover="reveal(this)" onmouseout="hide(this)" src="img/virus.jpg" width="100%"></div>
+      </div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Health Tips</h2>
+      <h3>A. Don't Skip Breakfast!</h3>
+      <img src="img/food.jpg" width="100%">
+    </div>
+  </div>
+</div>
+<!-- <img src="img/searchicon.jpg"> -->
+    <script src="script.js"></script>
+  </body>
+</html>
